@@ -48,8 +48,17 @@ def webhook():
     result = urlopen(yql_url).read()
     data = json.loads(result)
 
+    speech = "Today is: "+ data.get('day_name') + \
+            "Today's schedule:" + \
+            "Slot 1: " + data.get('slot_1') + \
+            "Slot 2: " + data.get('slot_2') + \
+            "Slot 3: " + data.get('slot_3') + \
+            "Slot 4: " + data.get('slot_4') + \
+            "Slot 5: " + data.get('slot_5') + \
+            "Slot 6: " + data.get('slot_6')
+
     res = {
-        "speech": data.get('slot_1'),
+        "speech": speech,
         "displayText": data.get('slot_1'),
         # "data": data,
         # "contextOut": [],
