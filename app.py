@@ -48,7 +48,7 @@ def webhook():
     result = urlopen(yql_url).read()
     data = json.loads(result)
 
-    speech = "Today is: "+ data.get('day_name') +"\n"+ \
+    speech = "Today is: "+ data.get('day_name') +"day\n"+ \
             "Today's schedule:" +"\n" + \
             "Slot 1: " + data.get('slot_1') +"\n" + \
             "Slot 2: " + data.get('slot_2') +"\n" + \
