@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @abhisheksuryavanshi
- Sign out
- Watch 0
-  Star 0  Fork 0 abhisheksuryavanshi/ttsc
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights 
-Branch: master Find file Copy pathttsc/app.py
-8e57241  4 days ago
-@abhisheksuryavanshi abhisheksuryavanshi Add files via upload
-1 contributor
-RawBlameHistory    
-Executable File  81 lines (64 sloc)  2.34 KB
-# -*- coding:utf8 -*-
 # !/usr/bin/env python
 # Copyright 2017 Google Inc. All Rights Reserved.
 #
@@ -96,15 +77,3 @@ if __name__ == '__main__':
     print("Starting app on port %d" % port)
 
     app.run(debug=False, port=port, host='0.0.0.0')
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
